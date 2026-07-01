@@ -8,7 +8,8 @@
 
     padding: 18px 22px;
 
-    background: #1c162f;
+    background-color: #1c162f;
+
     border: 3px inset #f4f4f4;
     border-radius: 16px;
 
@@ -18,9 +19,31 @@
     transition: all 0.25s ease;
     cursor: pointer;
 
+    position: relative;
+    overflow: hidden; /* Important */
+
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.1;
+
+    z-index: 0;
+}
+
+.card > * {
+    position: relative;
+    z-index: 1;
+}
 .card:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
@@ -32,6 +55,7 @@
     flex-direction: column;
     gap: 8px;
     overflow: hidden;
+    filter: drop-shadow(0 0 4px rgb(98, 65, 187));
     min-width: 0;
 }
 
