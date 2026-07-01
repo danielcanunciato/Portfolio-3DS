@@ -1,0 +1,124 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    min-width: 0;
+
+    padding: 18px 22px;
+
+    background: #1c162f;
+    border: 3px inset #f4f4f4;
+    border-radius: 16px;
+
+    text-decoration: none;
+    color: inherit;
+
+    transition: all 0.25s ease;
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    border-color: #1c0b67;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.card-content h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    color: #6b7280;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card-arrow {
+    font-size: 1.5rem;
+    color: #fff;
+    transition: transform 0.25s ease;
+    flex-shrink: 0;
+}
+
+.card:hover .card-arrow {
+    transform: translate(4px, -4px);
+}
+
+/* ---------- Tablets ---------- */
+
+@media (max-width: 1024px) {
+    .card {
+        padding: 16px 18px;
+    }
+
+    .card-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .card-content p {
+        font-size: 0.85rem;
+    }
+}
+
+/* ---------- Phones ---------- */
+
+@media (max-width: 768px) {
+    .card {
+        padding: 16px;
+    }
+
+    .card-content h3 {
+        font-size: 1rem;
+    }
+
+    .card-content p {
+        font-size: 0.8rem;
+    }
+
+    .card-arrow {
+        font-size: 1.3rem;
+    }
+}
+
+/* ---------- Small phones ---------- */
+
+@media (max-width: 480px) {
+    .card {
+        padding: 14px;
+        border-width: 2px;
+        border-radius: 12px;
+    }
+
+    .card-content {
+        gap: 6px;
+    }
+
+    .card-content h3 {
+        font-size: 0.95rem;
+    }
+
+    .card-content p {
+        font-size: 0.75rem;
+    }
+
+    .card-arrow {
+        font-size: 1.15rem;
+    }
+}
