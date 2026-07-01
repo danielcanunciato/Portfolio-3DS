@@ -56,6 +56,9 @@ export default function App() {
   const portfolio_1bim = [
     // Backend
     [
+      {sem: "Semana 1", url: "https://github.com/danielcanunciato/portfolio-1bim/tree/main/Backend/s1back", subject: "BACK-END"},
+      {sem: "Semana 2", url: "https://github.com/danielcanunciato/portfolio-1bim/tree/main/Backend/s2back", subject: "BACK-END"},
+      {sem: "Semana 3", url: "https://github.com/danielcanunciato/portfolio-1bim/tree/main/Backend/s3back", subject: "BACK-END"},
       {sem: "Semana 4", url: "https://github.com/danielcanunciato/portfolio-1bim/tree/main/Backend/s4back", subject: "BACK-END"},
       {sem: "Semana 5", url: "https://github.com/danielcanunciato/portfolio-1bim/tree/main/Backend/s5back", subject: "BACK-END"},
       {sem: "Semana 6", url: "https://github.com/danielcanunciato/portfolio-1bim/tree/main/Backend/s6back", subject: "BACK-END"},
@@ -64,11 +67,25 @@ export default function App() {
 
     // Frontend
     [
+      {sem: "Semana 1", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Frontend/s1front", subject: "FRONT-END"},
+      {sem: "Semana 2", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Frontend/s2front", subject: "FRONT-END"},
+      {sem: "Semana 3", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Frontend/s3front", subject: "FRONT-END"},
       {sem: "Semana 4", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Frontend/s4front", subject: "FRONT-END"},
       {sem: "Semana 5", url: "https://github.com/danielcanunciato/portfolio-1bim/tree/main/Frontend/s5front", subject: "FRONT-END"},
       {sem: "Semana 6", url: "https://github.com/danielcanunciato/portfolio-1bim/tree/main/Frontend/s6front", subject: "FRONT-END"},
       {sem: "Semana 7", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Frontend/s7front", subject: "FRONT-END"}
-    ]
+    ],
+
+    // Frontend
+    [
+      {sem: "Semana 1", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Versionamento/s1ver", subject: "VERSIONAMENTO DE CÓDIGO"},
+      {sem: "Semana 2", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Versionamento/s2ver", subject: "VERSIONAMENTO DE CÓDIGO"},
+      {sem: "Semana 3", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Versionamento/s3ver", subject: "VERSIONAMENTO DE CÓDIGO"},
+      {sem: "Semana 4", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Versionamento/s4ver", subject: "VERSIONAMENTO DE CÓDIGO"},
+      {sem: "Semana 5", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Versionamento/s5ver", subject: "VERSIONAMENTO DE CÓDIGO"},
+      {sem: "Semana 6", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Versionamento/s6ver", subject: "VERSIONAMENTO DE CÓDIGO"},
+      {sem: "Semana 7", url: "https://github.com/danielcanunciato/portfolio-1bim/blob/main/Versionamento/s7ver", subject: "VERSIONAMENTO DE CÓDIGO"},
+    ],
   ]
 
   const portfolio_2bim = [
