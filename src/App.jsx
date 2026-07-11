@@ -164,6 +164,8 @@ export default function App() {
         <p style={{marginBottom: "10px"}}>Em breve.</p>
       </div>
 
+      <div className="divider" />
+
       <div className="pf-bim">
         <h1>TCC</h1>
           <Card
