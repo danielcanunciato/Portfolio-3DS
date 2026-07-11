@@ -178,7 +178,7 @@ export default function App() {
                   "flexDirection" : "column",
                   "alignItems" : "center",
                   "width" : "75%",
-                  "--bg-image": `url(/represent/backend-wp.jpg)`,
+                  "--bg-image": `url(/represent/tcc-wp.png)`,
               }}
           />
       </div>
