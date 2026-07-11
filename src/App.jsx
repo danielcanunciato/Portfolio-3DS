@@ -168,7 +168,7 @@ export default function App() {
         <h1>TCC</h1>
           <Card
               title="Cointrive"
-              subtitle="Projeto de Trabalho de Conclusão de Curso"
+              subtitle="Projeto de TCC"
               url="https://github.com/danielcanunciato/TCC-PROJ-FINAL"
               style={{
                   "marginLeft" : "auto",
@@ -177,7 +177,7 @@ export default function App() {
                   "display" : "flex",
                   "flexDirection" : "column",
                   "alignItems" : "center",
-                  "width" : "50%",
+                  "width" : "75%",
                   "--bg-image": `url(/represent/backend-wp.jpg)`,
               }}
           />
