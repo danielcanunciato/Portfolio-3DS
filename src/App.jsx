@@ -164,6 +164,25 @@ export default function App() {
         <p style={{marginBottom: "10px"}}>Em breve.</p>
       </div>
 
+      <div className="pf-bim">
+        <h1>TCC</h1>
+          <Card
+              title="Cointrive"
+              subtitle="Projeto de Trabalho de Conclusão de Curso"
+              url="https://github.com/danielcanunciato/TCC-PROJ-FINAL"
+              style={{
+                  "marginLeft" : "auto",
+                  "marginRight" : "auto",
+                  "marginBottom" : "20px",
+                  "display" : "flex",
+                  "flexDirection" : "column",
+                  "alignItems" : "center",
+                  "width" : "50%",
+                  "--bg-image": `url(/represent/backend-wp.jpg)`,
+              }}
+          />
+      </div>
+
     </>
   )
 }
