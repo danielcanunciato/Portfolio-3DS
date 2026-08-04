@@ -122,6 +122,23 @@ export default function App() {
     ]
   ]
 
+  const portfolio_3bim = [
+    // Frontend
+    [
+      {sem: "Semana 15", url: "https://github.com/danielcanunciato/Portfolio-3BIM/tree/main/frontend/sem15", subject: "FRONT-END"}
+    ],
+
+    // Backend
+    [
+      {}
+    ],
+
+    // Versionamento
+    [
+      {sem: "Semana 15", url: "https://github.com/danielcanunciato/Portfolio-3BIM/tree/main/versionamento/sem15", subject: "VERSIONAMENTO DE CÓDIGO"}
+    ]
+  ]
+
   return (
     <>
     
@@ -154,7 +171,7 @@ export default function App() {
 
       <div className="pf-bim">
         <h1>Portfólio 3º Bimestre</h1>
-        <p style={{marginBottom: "10px"}}>Em breve.</p>
+        <PortfolioBase semanas={portfolio_3bim} />
       </div>
 
       <div className="divider" />
