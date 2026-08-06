@@ -123,14 +123,14 @@ export default function App() {
   ]
 
   const portfolio_3bim = [
-    // Frontend
-    [
-      {sem: "Semana 15", url: "https://github.com/danielcanunciato/Portfolio-3BIM/tree/main/frontend/sem15", subject: "FRONT-END"}
-    ],
-
     // Backend
     [
       {sem: "Semana 15", url: "https://github.com/danielcanunciato/Portfolio-3BIM/tree/main/backend/sem15", subject: "BACK-END"}
+    ],
+
+    // Frontend
+    [
+      {sem: "Semana 15", url: "https://github.com/danielcanunciato/Portfolio-3BIM/tree/main/frontend/sem15", subject: "FRONT-END"}
     ],
 
     // Versionamento
